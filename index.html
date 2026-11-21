@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{GROOM_NAME}} ♥ {{BRIDE_NAME}} - 婚禮邀請</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;700&family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Section 1: Hero/Cover -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <!-- Top section -->
+            <div class="hero-top">
+                <p class="hero-quote">
+                    I love three things in this world • Sun, moon and<br>
+                    you. Sun for morning<br>
+                    moon for night, and you forever.
+                </p>
+                <h1 class="hero-title">Welcome to our wedding</h1>
+            </div>
+            
+            <!-- Middle section -->
+            <div class="hero-names">
+                <p class="chinese-text-large-1">好久不見</p>
+                <p class="chinese-text-large-2">婚禮見!</p>
+                <p class="english-text-embedded">We get married</p>
+            </div>
+            
+            <!-- Bottom section -->
+            <div class="hero-bottom">
+                <div class="couple-names">
+                    <div class="groom">
+                        <span class="chinese-name">{{BRIDE_NAME}}</span>
+                        <span class="english-label">BRIDE</span>                        
+                    </div>
+                    <div class="double-happiness">囍</div>
+                    <div class="bride">
+                        <span class="chinese-name">{{GROOM_NAME}}</span>
+                        <span class="english-label">GROOM</span>
+                    </div>
+                </div>
+                <div class="wedding-date">{{YYYY.MM.DD}}</div>
+                <div class="wedding-venue">{{VENUE_NAME}}</div>
+            </div>
+        </div>
+        <nav class="bottom-nav">
+            <a href="#wedding">WEDDING</a>
+            <a href="#venue">VENUE</a>
+            <a href="#rsvp">RSVP</a>
+        </nav>
+    </section>
+
+    <!-- Section 2: Welcome Message -->
+    <section id="welcome" class="welcome-section">
+        <div class="section-content">
+            <div class="welcome-message">
+                <div class="message-header">
+                    <p class="chinese">感謝身邊每一個人的支持，你們都是這段緣份的見證人</p>
+                </div>
+                <p class="english-message">
+                    To Our Family And Friends, Thank You For Celebrating Our Special Day,<br>
+                    Supporting Us And Sharing Our Love
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Our Love Story -->
+    <section id="love-story" class="love-story-section">
+        <div class="story-header">
+            <p class="chinese-subtitle">Start from where we began</p>
+            <h2 class="story-title">OUR LOVE STORY</h2>
+            <p class="english-subtitle">SINCE {{YEAR_MET}}</p>
+        </div>
+
+        <div class="story-image">
+            <img src="images/story-photo-1.jpg" alt="Our Story">
+        </div>
+        
+
+        <div class="story-text">
+            <!-- <div class="wedding-invitation-badge">
+                <span class="laurel-left">🌿</span>
+                <span>WEDDING<br>INVITATION</span>
+                <span class="laurel-right">🌿</span>
+            </div> -->
+            <p class="poem">
+                {{STORY_POEM_LINE_1}}<br>
+                {{STORY_POEM_LINE_2}}<br>
+                {{STORY_POEM_LINE_3}}<br>
+                {{STORY_POEM_LINE_4}}<br>
+            </p>
+        </div>
+
+        <!-- Additional Story Sections -->
+        <div class="story-section">
+            <h2 class="section-title">我們，婚禮見!</h2>
+            <div class="section-subtitle">
+                <span class="our-text">OUR</span>
+                <span class="love-story-text">LOVE STORY</span>
+            </div>
+            <div class="story-image-2-wrapper">
+                <p class="side-text">We found each other in the middle of our own stories.</p>
+                <div class="story-image-2">
+                    <img src="images/story-photo-2.jpg" alt="Wedding Photo 2">
+                </div>
+            </div>
+            <div class="story-image-3-wrapper">
+                <div class="story-image-3">
+                    <img src="images/story-photo-3.jpg" alt="Wedding Photo 3">
+                </div>
+                <p class="story-image-3-text">{{MM.DD}}</p>
+            </div>            
+        </div>
+
+        <div class="story-chapter">
+            <div class="chapter-content">
+                <h3 class="chapter-title">
+                    <span class="chinese">相·愛</span>
+                    <span class="english">FALL IN<br>LOVE</span>
+                </h3>
+                <!-- <div class="chapter-divider"></div> -->
+                <p class="chapter-text">願有歲月可回首，且以深情共白頭</p>
+                <p class="chapter-poem">
+                    我在晴天看見蜃樓<br>
+                    人們說那是美好的無用<br>
+                    無用是需要的美好<br>
+                    我不要你的年華<br>
+                    被我浪費<br>
+                    我要你的傷春悲秋都能<br>
+                    被我浪漫<br>
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="story-chapter">
+            <div class="chapter-header">
+                <span class="you-are">YOU ARE</span>
+                <span class="my-dearest">MY DEAREST</span>
+                <span class="love">LOVE</span>
+            </div>            
+            <div class="chapter-image">
+                <img src="images/story-photo-4.jpg" alt="Love and Freedom">
+            </div>
+            <div class="chapter-content">
+                <div class="handwriting-red">Love and freedom<br>you And gentleness</div>
+                <p class="chapter-poem">
+                    向彼此走近時珍惜<br>
+                    背靠背時牽著羈絆<br>
+                    我們的感情就像一個圓<br>
+                    怎麼走都使我們更靠近
+                </p>
+            </div>
+        </div>
+
+        <div class="story-gallery">
+            <!-- <div class="gallery-header">
+                <span class="love-2">LOVE</span>
+                <span class="wedding">WEDDING</span>
+                <span class="information">INFORMATION</span>
+            </div> -->
+            <div class="gallery-images">
+                <img src="images/gallery-1.jpg" alt="Gallery 1">
+                <img src="images/gallery-2.jpg" alt="Gallery 2">
+            </div>
+            <p class="gallery-quote">In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine</p>
+        </div>
+    </section>
+
+    <!-- Section 4: Wedding Information with Calendar & Countdown -->
+    <section id="wedding" class="wedding-info-section">
+        <div class="story-chapter">
+            <div class="chapter-content">
+                <h3 class="chapter-title">
+                    <span class="chinese">相·守</span>
+                    <span class="english">COMPANIONSHIP</span>
+                </h3>
+                <p class="chapter-text">許一人以偏愛，盡餘生之慷慨</p>
+            </div>
+        </div>
+        <div class="info-header">
+            <!-- <span class="no">NO.12</span>
+            <span class="date-small">{{MM.DD}}</span>
+            <span class="fall-in">FALL IN</span> -->
+            <div class="wedding-invitation-badge-dark">
+                <span class="laurel-left">🌿</span>
+                <span>WEDDING<br>INVITATION</span>
+                <span class="laurel-right">🌿</span>
+            </div>
+        </div>
+
+        <div class="calendar-section">
+            <div class="calendar-bg-image">
+                <img src="images/calendar-photo.jpg" alt="Wedding Photo">
+            </div>
+            <div class="calendar">
+                <div class="calendar-month" id="calendarMonth">{{MM/DD}}</div>
+                <div class="calendar-grid">
+                    <div class="weekdays">
+                        <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+                    </div>
+                    <div class="dates" id="calendarDates"><!-- 由 js/script.js 依 CONFIG.weddingDate 自動產生 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wedding-details">
+            <!-- <div class="detail-header">
+                <img src="images/detail-1.jpg" alt="Story Photo">
+                <div class="detail-header-content">
+                    <span class="chinese">浪漫 | 童话 | 愛情</span>
+                    <span class="english">I love three things in this world • Sun, moon and you. Sun for morning moon for night, and you forever.</span>
+                </div>
+            </div> -->
+
+            <div class="wedding-datetime">
+                <p class="datetime-text">{{YYYY年M月D日 星期X}}</p>
+                <!-- <p class="datetime-text">{{農曆日期 時間}}</p> -->
+            </div>
+
+            <!-- This HTML structure represents a countdown timer display, divided into four items for days, hours, minutes, and seconds. Each item consists of a number (likely updated dynamically via JavaScript) and a label in Chinese characters. The purpose is to visually show the remaining time until a specific event or deadline, such as a launch date or expiration. The IDs (days, hours, minutes, seconds) are used for JavaScript manipulation to update the values in real-time. -->
+            <div class="countdown-layout">
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="days">000</div>
+                        <div class="countdown-label">天</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="hours">00</div>
+                        <div class="countdown-label">時</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="minutes">00</div>
+                        <div class="countdown-label">分</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="seconds">00</div>
+                        <div class="countdown-label">秒</div>
+                    </div>
+                </div>
+                <div class="countdown-right">
+                    <p class="countdown-message">
+                        {{COUNTDOWN_MESSAGE_LINE_1}}<br>
+                        {{COUNTDOWN_MESSAGE_LINE_2}}<br>
+                        {{COUNTDOWN_MESSAGE_LINE_3}}
+                    </p>
+                    <div class="detail-images">
+                        <img src="images/detail-1.jpg" alt="Detail 1">
+                        <img src="images/detail-2.jpg" alt="Detail 2">
+                    </div>
+                    <p class="detail-quote">In the clouds and mist of disappearing Love you and everyone knows it</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Venue Information -->
+    <section id="venue" class="venue-section">
+        <div class="venue-top">
+            <div class="venue-image">
+                <img src="images/venue-photo.jpg" alt="Venue">
+            </div>
+            <div class="venue-header">
+                <p class="side-text-vertical">FOREVER AND EVER</p>
+            </div>
+        </div>
+
+        <div class="venue-poem">
+            <p>
+                你自山河間來，驚鴻一現百花開<br>
+                我見眾生皆草木，唯你是青山
+            </p>
+        </div>
+
+        <div class="venue-map">
+            <!-- 將 {{VENUE_ADDRESS_URL_ENCODED}} 換成場地地址，或貼上 Google Maps「分享 → 嵌入地圖」的 iframe -->
+            <iframe
+                src="https://www.google.com/maps?q={{VENUE_ADDRESS_URL_ENCODED}}&output=embed"
+                width="100%"
+                height="300"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <!-- <div class="map-marker">📍</div> -->
+        </div>
+
+        <div class="venue-address">
+            <h3>{{VENUE_NAME}}</h3>
+        </div>
+
+        <div class="final-image">
+            <img src="images/final-photo.jpg" alt="Final Photo">
+        </div>
+
+        <div class="final-message">
+            <span class="love-you">LOVE YOU</span>
+            <span class="forever">FOREVER</span>
+            <span class="date">{{MM.DD}}</span>
+        </div>
+    </section>
+
+    <!-- Section 6: RSVP Form -->
+    <section id="rsvp" class="rsvp-section">
+        <div class="rsvp-header">
+            <div class="final-hero-image">
+                <img src="images/rsvp-photo.jpg" alt="RSVP Photo">
+                <div class="hero-text-overlay">
+                    <p class="overlay-chinese-1">好久不見</p>
+                    <p class="overlay-chinese-2">婚禮見!</p>
+                    <!-- <p class="overlay-english">We get married</p> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2 class="form-title">你會來ㄇ?</h2>
+            <p class="form-subtitle">Survey</p>
+
+            <form id="rsvpForm">
+                <div class="form-group">
+                    <label for="guestName">* 姓名</label>
+                    <input type="text" id="guestName" name="guestName" required placeholder="請輸入您的姓名">
+                    <div id="nameError" class="error-message"></div>
+                </div>
+
+                <div id="formFields" style="display: none;">
+                    <!-- Ceremony Attendance (conditional) -->
+                    <div class="form-group" id="ceremonyGroup" style="display: none;">
+                        <label>* 是否參加證婚 ({{CEREMONY_CHECKIN}}報到, {{CEREMONY_START}}開始)</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="attendCeremony" value="yes">
+                                <span>參加</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attendCeremony" value="no">
+                                <span>不參加</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Ceremony Plus One (conditional) -->
+                    <div class="form-group" id="ceremonyPlusOneGroup" style="display: none;">
+                        <label>* 證婚有要攜伴嗎</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="plusCeremonyOne" value="yes">
+                                <span>是</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="plusCeremonyOne" value="no">
+                                <span>否</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Ceremony Guest Count (conditional) -->
+                    <div class="form-group" id="ceremonyGuestCountGroup" style="display: none;">
+                        <label for="ceremonyGuestCount">* 證婚攜伴人數</label>
+                        <select id="ceremonyGuestCount" name="ceremonyGuestCount">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <!-- <option value="4">4</option>
+                            <option value="5">5</option> -->
+                        </select>
+                        <p class="field-hint">人數較多請聯繫新娘或新郎</p>
+                    </div>
+
+                    <!-- Dinner Attendance -->
+                    <div class="form-group">
+                        <label>* 是否參加晚宴 ({{DINNER_CHECKIN}}報到, {{DINNER_START}}開始)</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="attendDinner" value="yes" required>
+                                <span>參加</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attendDinner" value="no">
+                                <span>不參加</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Self Diet Preference (conditional) -->
+                    <div class="form-group" id="selfDietGroup" style="display: none;">
+                        <label>* 您的飲食習慣</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="selfDiet" value="meat" checked>
+                                <span>葷食</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="selfDiet" value="vegetarian">
+                                <span>素食</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Dinner Plus One (conditional) -->
+                    <div class="form-group" id="dinnerPlusOneGroup" style="display: none;">
+                        <label>* 晚宴有要攜伴嗎</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="plusDinnerOne" value="yes">
+                                <span>是</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="plusDinnerOne" value="no">
+                                <span>否</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Dinner Guest Count (conditional) -->
+                    <div class="form-group" id="dinnerGuestCountGroup" style="display: none;">
+                        <label for="dinnerGuestCount">* 晚宴攜伴人數</label>
+                        <div class="select-with-unit">
+                            <select id="dinnerGuestCount" name="dinnerGuestCount">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <!-- <option value="4">4</option>
+                                <option value="5">5</option> -->
+                            </select>
+                            <span>位</span>
+                        </div>
+                        <p class="field-hint">人數較多請聯繫新娘或新郎</p>
+                    </div>
+
+                    <!-- Guest Diet Preference (conditional) -->
+                    <div class="form-group" id="guestDietGroup" style="display: none;">
+                        <label>攜帶賓客的飲食習慣</label>
+                        <div class="diet-selects">
+                            <div class="diet-select-item">
+                                <span>葷食</span>
+                                <select id="guestMeatCount" name="guestMeatCount"></select>
+                                <span>位</span>
+                            </div>
+                            <div class="diet-select-item">
+                                <span>素食</span>
+                                <select id="guestVegCount" name="guestVegCount"></select>
+                                <span>位</span>
+                            </div>
+                            <div class="diet-select-item">
+                                <span>共食</span>
+                                <select id="guestSharedCount" name="guestSharedCount"></select>
+                                <span>位</span>
+                            </div>
+                        </div>
+                        <p class="field-hint">共食指不需獨立餐點，與家人共用</p>
+                        <div id="guestDietError" class="error-message"></div>
+                    </div>
+
+                    <!-- High Chair Request (conditional) -->
+                    <div class="form-group" id="highChairGroup" style="display: none;">
+                        <label for="highChairCount">嬰兒椅需求</label>
+                        <div class="select-with-unit">
+                            <select id="highChairCount" name="highChairCount">
+                                <option value="0">0</option>
+                            </select>
+                            <span>張</span>
+                        </div>
+                    </div>
+
+                    <!-- Message (always visible) -->
+                    <div class="form-group" id="messageGroup">
+                        <label for="guestMessage">想說的話</label>
+                        <textarea id="guestMessage" name="guestMessage" rows="3" placeholder="有什麼想對我們說的話嗎？"></textarea>
+                    </div>
+
+                    <!-- Email (conditional) -->
+                    <div class="form-group" id="emailGroup">
+                        <label for="email">* 電子郵件</label>
+                        <input type="email" id="email" name="email" required placeholder="example@email.com">
+                        <p class="field-hint">我們會將電子喜帖寄送至此信箱</p>
+                    </div>
+
+                    <button type="submit" class="submit-btn">提交</button>
+                </div>
+            </form>
+
+            <div id="thankYouMessage" style="display: none;">
+                <h3>WELCOME</h3>
+                <p class="thank-you-text"></p>
+                <h3>TO OUR WEDDING</h3>
+                <p class="confirmation-text">感謝您的回覆！我們已收到您的資訊，電子喜帖將在後續寄送至您的信箱!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© {{YEAR}} {{GROOM_NAME}} & {{BRIDE_NAME}} | Made with ♥</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
